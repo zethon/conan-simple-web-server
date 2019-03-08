@@ -38,5 +38,8 @@ class LibnameConan(ConanFile):
         self.copy(pattern="*.hpp", dst="include", src=self._source_subfolder)
 
 
+    def package_info(self):
+        self.cpp_info.defines = ["USE_STANDALONE_ASIO"]
+
     def package_id(self):
         self.info.header_only()
