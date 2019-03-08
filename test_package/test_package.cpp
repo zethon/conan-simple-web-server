@@ -144,5 +144,9 @@ int main() {
     });
     client.io_service->run();
 
-    server_thread.join();
+    server_thread.detach();
+    // Exit the server
+    cout << "Closing server after test" << endl;
+    this_thread::sleep_for(chrono::seconds(1));
+    exit(0);
 }
