@@ -5,6 +5,6 @@ from bincrafters import build_template_header_only
 
 if __name__ == "__main__":
 
-    builder = build_template_header_only.get_builder()
+    builder = build_template_header_only.get_builder(build_policy="missing")
 
     builder.run()

@@ -2,8 +2,7 @@
 
 | Bintray | Windows | Linux & macOS |
 |:--------:|:---------:|:-----------------:|
- [![Download](https://api.bintray.com/packages/inexorgame/inexor-conan/Simple-Web-Server%3Ainexorgame/images/download.svg) ](https://bintray.com/inexorgame/inexor-conan/Simple-Web-Server%3Ainexorgame/_latestVersion) |[![Build status](https://ci.appveyor.com/api/projects/status/github/bincrafters/conan-package_name?svg=true)](https://ci.appveyor.com/project/bincrafters/conan-package_name)|[![Build Status](https://travis-ci.com/bincrafters/conan-package_name.svg)](https://travis-ci.com/bincrafters/conan-package_name)|
-
+ [![Download](https://api.bintray.com/packages/inexorgame/inexor-conan/Simple-Web-Server%3Ainexorgame/images/download.svg) ](https://bintray.com/inexorgame/inexor-conan/Simple-Web-Server%3Ainexorgame/_latestVersion) | [![Build status](https://ci.appveyor.com/api/projects/status/github/bincrafters/conan-package_name?svg=true)](https://ci.appveyor.com/project/bincrafters/conan-package_name)| [![Build Status](https://travis-ci.org/inexorgame/conan-simple-web-server.svg?branch=master)](https://travis-ci.org/inexorgame/conan-simple-web-server)
 ## Conan Information
 
 Bincrafters packages can be found in the following public Conan repository:
