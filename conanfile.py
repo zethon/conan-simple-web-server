@@ -7,7 +7,7 @@ import os
 
 class LibnameConan(ConanFile):
     name = "Simple-Web-Server"
-    version = "v3.0.0-rc3"
+    version = "v3.1.1"
     description = "A very simple, fast, multithreaded, platform independent HTTP and HTTPS server and client library implemented using C++11 and Asio (both Boost.Asio and standalone Asio can be used). Created to be an easy way to make REST resources available from C++ applications."
     # topics can get used for searches, GitHub topics, Bintray tags etc. Add here keywords about the library
     topics = ("c++11", "http", "rest")
@@ -30,7 +30,7 @@ class LibnameConan(ConanFile):
     def source(self):
         git = tools.Git(self._source_subfolder)
         git.clone("https://gitlab.com/eidheim/Simple-Web-Server.git")
-        git.checkout("v3.0.0-rc3")
+        git.checkout("v3.1.1")
 
 
     def package(self):
